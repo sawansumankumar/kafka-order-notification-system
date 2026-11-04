@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+**/temp/
+**/tmp/
+*.pem
+*.key
+*.p12
+*.jks
+**/.idea/
+**/.vscode/
+*.iml
+**/target/
+**/.run/
