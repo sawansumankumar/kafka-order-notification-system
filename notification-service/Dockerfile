@@ -14,7 +14,8 @@ FROM eclipse-temurin:17-jre-jammy
 
 WORKDIR /app
 
-RUN useradd --system --uid 10001 appuser
+RUN groupadd --gid 1000 render \
+    && useradd --system --uid 10001 --gid render appuser
 
 COPY --from=build /build/target/*.jar app.jar
 
