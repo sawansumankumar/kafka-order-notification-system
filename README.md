@@ -65,7 +65,7 @@ information through Kafka rather than querying the Order database.
 The services are deployed on Render:
 
 - Order Service: https://sawan-order-service.onrender.com
-- Notification Service: https://YOUR_NOTIFICATION_SERVICE.onrender.com
+- Notification Service: https://sawan-notification-service.onrender.com
 
 These use free hosting, so the first request may take a minute to
 respond while a service wakes up. Open both service URLs before testing.
